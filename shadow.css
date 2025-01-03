@@ -1,0 +1,18 @@
+*
+{
+    margin: auto 0;
+    padding: 0;
+}
+.first
+{
+    width: 800px;
+    height: 200px;
+    background-color: aqua;
+    text-align: center;
+    margin-top: 60px;
+    /* box-shadow: 5px 6px 4px black;
+    box-shadow: inset 5px 6px 4px black; */
+    box-shadow: 0 0 0 20px red,0 0 0 20px green,0 0 0 20px yellow;
+    border-radius: 15px;
+    border-top-left-radius: 10%;
+}

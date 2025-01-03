@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form name="myform">
+    <table border="1" align="center">
+        <tr>
+            <td colspan="4">
+                <input type="text"name="text1" placeholder="0"> 
+            </td>
+        </tr>
+        <tr align="center">
+            <td><input type="button" value="1" oneclick="myform.text1.value+='1'"></td>
+            <td><input type="reset" value="c"></td>
+            <td><input type="button" value="=" onclick="myform.text1.value=eval(myform.text1.value)"></td>
+ 	        <td><input type="button" value="+" onclick="myform.text1.value+='+'"></td>
+        </tr>
+        
+    </table>
+    </form>
+    
+</body>
+</html>

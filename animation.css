@@ -1,0 +1,16 @@
+*
+{
+    margin: auto 0;
+    padding: 0%;
+}
+.row
+{
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+@keyframes myani1 {
+    from{}
+    
+}
